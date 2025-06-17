@@ -20,7 +20,7 @@ This dataset contains water quality measurements from various monitoring station
 
 ## Week 1 - Data Preprocessing and Visualization
 
-**Notebook**: [Water_Quality_Prediction.ipynb]([Water_Quality_Prediction.ipynb](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/Week_1/Water_Quality_Prediction.ipynb))
+**Notebook**: [Water_Quality_Prediction.ipynb](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/Week_1/Water_Quality_Prediction.ipynb)
 
 In this first week, we:
 - Imported and explored the dataset
