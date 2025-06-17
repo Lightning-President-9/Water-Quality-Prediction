@@ -18,11 +18,11 @@ This dataset contains water quality measurements from various monitoring station
 
 > Refer to [Parameters_WQM_RMS.pdf](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/Parameters_WQM_RMS.pdf) for environmental significance and accepted limits of each parameter.
 
-## Week 1 - Data Preprocessing and Visualization
+## Week 1 - Data Preprocessing
 
 **Notebook**: [Water_Quality_Prediction.ipynb](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/Week_1/Water_Quality_Prediction.ipynb)
 
-In this first week, we:
+In this first week:
 - Imported and explored the dataset
 - Checked for missing/null values
 - Converted necessary columns to datetime format
