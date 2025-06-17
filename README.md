@@ -1,11 +1,11 @@
 # Water Quality Prediction
 
-This project analyzes and predicts water quality using historical data collected from monitoring stations across Punjab, India (2000–2021). It aims to evaluate environmental health based on several key parameters and build machine learning models for predictive analytics.
+This project analyzes and predicts water quality using historical data collected from monitoring stations. It aims to evaluate environmental health based on several key parameters and build machine learning models for predictive analytics.
 
 ## Dataset Description
 
 **File**: [PB_All_2000_2021.csv](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/PB_All_2000_2021.csv)  
-This dataset contains water quality measurements from various monitoring stations across Punjab, India. Parameters include:
+This dataset contains water quality measurements from various monitoring stations. Parameters include:
 
 - **NH₄ (Ammonium)** – indicator of organic pollution
 - **BSK5 (BOD₅)** – biochemical oxygen demand
