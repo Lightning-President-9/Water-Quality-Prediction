@@ -56,7 +56,7 @@ We split the data into training and testing sets (80/20), trained the model, and
 - **Mean Squared Error (MSE)**
 - **R² Score** (a higher score indicates better prediction accuracy)
 
-### Sample Results
+### Results
 
 Below are the model's performance metrics (R² and MSE) on the test dataset for each pollutant:
 
