@@ -71,3 +71,34 @@ Below are the model's performance metrics (R² and MSE) on the test dataset for 
 
 ### Prediction
 We tested the model on hypothetical input: station `22` in the year `2024`.
+
+## Week 3 – Web App Deployment with Streamlit
+
+**App File**: [`app.py`](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/Week_3/app.py)  
+**Model Files**: [`pkl_object.rar`](https://github.com/Lightning-President-9/Water-Quality-Prediction/blob/main/pkl_object.rar) *(contains `pollution_model.pkl` and `model_columns.pkl`)*
+
+In Week 3, we deployed the trained water quality prediction model using **Streamlit**, creating an interactive web application for real-time predictions.
+
+### Features
+- Predict pollutant levels based on:
+  - **Year** (e.g., 2022, 2024)
+  - **Monitoring Station ID**
+- Visualize predicted values with multiple chart options:
+  - **Radar Chart** – Compare all pollutants against acceptable limits in one view
+  - **Gauge Charts** – Speedometer-style view for each pollutant
+  - **Bullet Charts** – Horizontal bar comparison with danger thresholds
+- Toggle between chart types for flexible insight
+
+### Input Fields
+- **Year** – Numerical input between 2000 and 2100
+- **Station ID** – ID of the water monitoring station (string or numeric)
+
+### Model Integration
+The model was trained using:
+- `MultiOutputRegressor` with `RandomForestRegressor`
+- One-hot encoded `station_id` and `year` as inputs
+- Target pollutants: `O2`, `NO3`, `NO2`, `SO4`, `PO4`, `CL`
+
+To run the web app locally:
+```bash
+streamlit run app.py
